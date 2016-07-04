@@ -72,6 +72,7 @@
     "fs-walk": "0.0.1",
     "isparta": "^4.0.0",
     "isparta-loader": "^2.0.0",
+    "jasmine-reporters": "^2.2.0",
     "karma": "^0.13.9",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.2.0",
