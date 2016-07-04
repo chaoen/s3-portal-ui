@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Sign up : " timestamp="2016-06-29T18:03:03" hostname="localhost" time="34.509" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Sign up : .When user clicks the [Create an account] button : " timestamp="2016-06-29T18:03:03" hostname="localhost" time="4.402" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign up : .When user clicks the [Create an account] button : " name="Should check whether to enter the sign up page" time="4.401" />
+ </testsuite>
+ <testsuite name="Sign up : .When user has not input e-mail, password, and password confirmation : " timestamp="2016-06-29T18:03:07" hostname="localhost" time="1.856" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign up : .When user has not input e-mail, password, and password confirmation : " name="Should check the [SIGN UP] button is disabled" time="1.856" />
+ </testsuite>
+ <testsuite name="Sign up : .When user inputs null in the account and password : " timestamp="2016-06-29T18:03:09" hostname="localhost" time="3.74" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign up : .When user inputs null in the account and password : " name="Should check [SIGN UP] button is disabled and the message displayed" time="3.74" />
+ </testsuite>
+ <testsuite name="Sign up : .When user inputs the correct format for e-mail : " timestamp="2016-06-29T18:03:13" hostname="localhost" time="2.675" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign up : .When user inputs the correct format for e-mail : " name="Should check the [SIGN UP] button is disabled" time="2.675" />
+ </testsuite>
+ <testsuite name="Sign up : .When user inputs the incorrect format for e-mail" timestamp="2016-06-29T18:03:15" hostname="localhost" time="4.394" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign up : .When user inputs the incorrect format for e-mail" name="Should check the [SIGN UP] button is disabled and the message displayed" time="4.393" />
+ </testsuite>
+ <testsuite name="Sign up : .When user inputs the correct format for password : " timestamp="2016-06-29T18:03:20" hostname="localhost" time="2.17" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign up : .When user inputs the correct format for password : " name="Should check [SIGN UP] button is disabled" time="2.17" />
+ </testsuite>
+ <testsuite name="Sign up : .When user inputs the incorrect format for password : " timestamp="2016-06-29T18:03:22" hostname="localhost" time="2.807" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign up : .When user inputs the incorrect format for password : " name="Should check the [SIGN UP] button is disabled and the message displayed" time="2.807" />
+ </testsuite>
+ <testsuite name="Sign up : .When user inputs the password and confirmation is inconsistent :" timestamp="2016-06-29T18:03:25" hostname="localhost" time="2.273" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign up : .When user inputs the password and confirmation is inconsistent :" name="Should check the [SIGN UP] button is disabled and the message displayed" time="2.273" />
+ </testsuite>
+ <testsuite name="Sign up : .When user inputs the e-mail, password and confirmation : " timestamp="2016-06-29T18:03:27" hostname="localhost" time="2.229" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign up : .When user inputs the e-mail, password and confirmation : " name="Should check [SIGN UP] button is enabled." time="2.229" />
+ </testsuite>
+ <testsuite name="Sign up : .When user inputs the e-mail, password and confirmation and clicks the [SIGN UP] : " timestamp="2016-06-29T18:03:29" hostname="localhost" time="5.91" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign up : .When user inputs the e-mail, password and confirmation and clicks the [SIGN UP] : " name="Should check this website is go to signin page and show sign up success message" time="5.909" />
+ </testsuite>
+ <testsuite name="Sign up : .When user inputs an already existing e-mail :" timestamp="2016-06-29T18:03:35" hostname="localhost" time="2.051" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign up : .When user inputs an already existing e-mail :" name="Should check the [SIGN UP] button is disabled and the message displayed" time="2.05" />
+ </testsuite>
+ <testsuite name="Sign In" timestamp="2016-06-29T18:03:37" hostname="localhost" time="18.578" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Sign In.When user into the website : " timestamp="2016-06-29T18:03:37" hostname="localhost" time="0.832" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign In.When user into the website : " name="Should check into the sign in page" time="0.832" />
+ </testsuite>
+ <testsuite name="Sign In.When user email and password has not been entered : " timestamp="2016-06-29T18:03:38" hostname="localhost" time="0.988" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign In.When user email and password has not been entered : " name="Should check the [SIGN IN] is disabled." time="0.987" />
+ </testsuite>
+ <testsuite name="Sign In.When user inputs null in the account and password : " timestamp="2016-06-29T18:03:39" hostname="localhost" time="2.358" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign In.When user inputs null in the account and password : " name="Should check the [SIGN IN] is disabled and the message is displayed" time="2.357" />
+ </testsuite>
+ <testsuite name="Sign In.When user only inputs the email : " timestamp="2016-06-29T18:03:41" hostname="localhost" time="1.456" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign In.When user only inputs the email : " name="Should check the [SIGN IN] button is disabled." time="1.456" />
+ </testsuite>
+ <testsuite name="Sign In.When user only inputs the password : " timestamp="2016-06-29T18:03:43" hostname="localhost" time="1.678" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign In.When user only inputs the password : " name="Should check the [SIGN IN] button is disabled." time="1.678" />
+ </testsuite>
+ <testsuite name="Sign In.When the user inputs the correct email and password, but the email does not exist : " timestamp="2016-06-29T18:03:45" hostname="localhost" time="1.483" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign In.When the user inputs the correct email and password, but the email does not exist : " name="Should check the [SIGN IN] is enabled" time="1.483" />
+ </testsuite>
+ <testsuite name="Sign In.When the user inputs the correct email and password, but the email does not exist and clicks the [SIGN IN]: " timestamp="2016-06-29T18:03:46" hostname="localhost" time="2.157" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign In.When the user inputs the correct email and password, but the email does not exist and clicks the [SIGN IN]: " name="Should check the status message is displayed" time="2.156" />
+ </testsuite>
+ <testsuite name="Sign In.When user inputs exist email but input not match password : " timestamp="2016-06-29T18:03:48" hostname="localhost" time="1.45" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign In.When user inputs exist email but input not match password : " name="Should check the [SIGN IN] is enabled" time="1.45" />
+ </testsuite>
+ <testsuite name="Sign In.When user inputs exist email but input not match password and clicks  : " timestamp="2016-06-29T18:03:50" hostname="localhost" time="2.099" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign In.When user inputs exist email but input not match password and clicks  : " name="Should check the status message is displayed" time="2.099" />
+ </testsuite>
+ <testsuite name="Sign In.When user inputs the correct email and password : " timestamp="2016-06-29T18:03:52" hostname="localhost" time="1.42" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign In.When user inputs the correct email and password : " name="Should check [SIGN IN] will enabled" time="1.42" />
+ </testsuite>
+ <testsuite name="Sign In.When user input the correct email and password and click the [SIGN IN] : " timestamp="2016-06-29T18:03:53" hostname="localhost" time="2.657" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign In.When user input the correct email and password and click the [SIGN IN] : " name="Should check this website is go to bucket management page and show sign in success message" time="2.657" />
+ </testsuite>
+ <testsuite name="Sign Out" timestamp="2016-06-29T18:03:56" hostname="localhost" time="5.284" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Sign Out.When user click the [Sign Out] : " timestamp="2016-06-29T18:03:56" hostname="localhost" time="5.284" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sign Out.When user click the [Sign Out] : " name="Should check back the sign in page and show sign out success message" time="5.283" />
+ </testsuite>
+ <testsuite name="Back to Log in page" timestamp="2016-06-29T18:04:01" hostname="localhost" time="1.187" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Back to Log in page.When user enters this website and click [Log in] : " timestamp="2016-06-29T18:04:01" hostname="localhost" time="1.187" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Back to Log in page.When user enters this website and click [Log in] : " name="Should check this website is go to signin page" time="1.187" />
+ </testsuite>
+ <testsuite name="Auth Translation" timestamp="2016-06-29T18:04:02" hostname="localhost" time="102.465" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Auth Translation.When user enters the login page and selects the Traditional Chinese language: " timestamp="2016-06-29T18:04:02" hostname="localhost" time="1.737" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user enters the login page and selects the Traditional Chinese language: " name="Should check every elements using the right language" time="1.737" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user enters the sign up page and selects the Traditional Chinese language: " timestamp="2016-06-29T18:04:04" hostname="localhost" time="1.774" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user enters the sign up page and selects the Traditional Chinese language: " name="Should check every elements using the right language" time="1.774" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs null in the account and password and selects the Traditional Chinese language : " timestamp="2016-06-29T18:04:06" hostname="localhost" time="2.935" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs null in the account and password and selects the Traditional Chinese language : " name="Should check every elements using the right language" time="2.935" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs the incorrect format for e-mail and selects the Traditional Chinese language : " timestamp="2016-06-29T18:04:09" hostname="localhost" time="2.599" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs the incorrect format for e-mail and selects the Traditional Chinese language : " name="Should check every elements using the right language" time="2.598" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs the incorrect format for password and selects the Traditional Chinese language : " timestamp="2016-06-29T18:04:11" hostname="localhost" time="2.134" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs the incorrect format for password and selects the Traditional Chinese language : " name="Should check every elements using the right language" time="2.134" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs the password and confirmation is inconsistent and selects the Traditional Chinese language :" timestamp="2016-06-29T18:04:13" hostname="localhost" time="1.998" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs the password and confirmation is inconsistent and selects the Traditional Chinese language :" name="Should check every elements using the right language" time="1.998" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs the e-mail, password and confirmation and clicks the [SIGN UP] and selects the Traditional Chinese language : " timestamp="2016-06-29T18:04:15" hostname="localhost" time="3.814" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs the e-mail, password and confirmation and clicks the [SIGN UP] and selects the Traditional Chinese language : " name="Should check every elements using the right language : " time="3.814" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs an already existing e-mail and selects the Traditional Chinese language :" timestamp="2016-06-29T18:04:19" hostname="localhost" time="2.373" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs an already existing e-mail and selects the Traditional Chinese language :" name="Should check every elements using the right language" time="2.373" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs null in the account and password and selects the Traditional Chinese language : " timestamp="2016-06-29T18:04:22" hostname="localhost" time="2.384" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs null in the account and password and selects the Traditional Chinese language : " name="Should check every elements using the right language" time="2.384" />
+ </testsuite>
+ <testsuite name="Auth Translation.When the user inputs the correct email and password, but the email does not exist and clicks the [SIGN IN] and selects the Traditional Chinese language : " timestamp="2016-06-29T18:04:24" hostname="localhost" time="2.303" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When the user inputs the correct email and password, but the email does not exist and clicks the [SIGN IN] and selects the Traditional Chinese language : " name="Should check every elements using the right language" time="2.303" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs exist email but input not match password and clicks the [SIGN IN] and selects the Traditional Chinese language : " timestamp="2016-06-29T18:04:26" hostname="localhost" time="2.231" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs exist email but input not match password and clicks the [SIGN IN] and selects the Traditional Chinese language : " name="Should check every elements using the right language" time="2.23" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user input the correct email and password and clicks the [SIGN IN] and selects the Traditional Chinese language : " timestamp="2016-06-29T18:04:29" hostname="localhost" time="2.615" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user input the correct email and password and clicks the [SIGN IN] and selects the Traditional Chinese language : " name="Should check every elements using the right language" time="2.615" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user clicks the [Sign Out] and selects the Traditional Chinese language : " timestamp="2016-06-29T18:04:31" hostname="localhost" time="4.544" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user clicks the [Sign Out] and selects the Traditional Chinese language : " name="Should check every elements using the right language" time="4.543" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user enters the login page and selects the Simplified Chinese language: " timestamp="2016-06-29T18:04:36" hostname="localhost" time="2.615" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user enters the login page and selects the Simplified Chinese language: " name="Should check every elements using the right language" time="2.614" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user enters the sign up page and selects the Simplified Chinese language: " timestamp="2016-06-29T18:04:38" hostname="localhost" time="1.946" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user enters the sign up page and selects the Simplified Chinese language: " name="Should check every elements using the right language" time="1.946" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs null in the account and password and selects the Simplified Chinese language : " timestamp="2016-06-29T18:04:40" hostname="localhost" time="3.659" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs null in the account and password and selects the Simplified Chinese language : " name="Should check every elements using the right language" time="3.659" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs the incorrect format for e-mail and selects the Simplified Chinese language : " timestamp="2016-06-29T18:04:44" hostname="localhost" time="2.559" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs the incorrect format for e-mail and selects the Simplified Chinese language : " name="Should check every elements using the right language" time="2.558" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs the incorrect format for password and selects the Simplified Chinese language : " timestamp="2016-06-29T18:04:47" hostname="localhost" time="2.232" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs the incorrect format for password and selects the Simplified Chinese language : " name="Should check every elements using the right language" time="2.232" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs the password and confirmation is inconsistent and selects the Simplified Chinese language :" timestamp="2016-06-29T18:04:49" hostname="localhost" time="2.228" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs the password and confirmation is inconsistent and selects the Simplified Chinese language :" name="Should check every elements using the right language" time="2.228" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs the e-mail, password and confirmation and clicks the [SIGN UP] and selects the Simplified Chinese language : " timestamp="2016-06-29T18:04:51" hostname="localhost" time="3.597" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs the e-mail, password and confirmation and clicks the [SIGN UP] and selects the Simplified Chinese language : " name="Should check every elements using the right language" time="3.597" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs an already existing e-mail and selects the Simplified Chinese language :" timestamp="2016-06-29T18:04:55" hostname="localhost" time="2.437" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs an already existing e-mail and selects the Simplified Chinese language :" name="Should check every elements using the right language" time="2.437" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs null in the account and password and selects the Simplified Chinese language : " timestamp="2016-06-29T18:04:57" hostname="localhost" time="2.294" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs null in the account and password and selects the Simplified Chinese language : " name="Should check every elements using the right language" time="2.293" />
+ </testsuite>
+ <testsuite name="Auth Translation.When the user inputs the correct email and password, but the email does not exist and clicks the [SIGN IN] and selects the Simplified Chinese language : " timestamp="2016-06-29T18:04:59" hostname="localhost" time="2.47" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When the user inputs the correct email and password, but the email does not exist and clicks the [SIGN IN] and selects the Simplified Chinese language : " name="Should check every elements using the right language" time="2.469" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs exist email but input not match password and clicks the [SIGN IN] and selects the Simplified Chinese language : " timestamp="2016-06-29T18:05:02" hostname="localhost" time="2.404" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs exist email but input not match password and clicks the [SIGN IN] and selects the Simplified Chinese language : " name="Should check every elements using the right language" time="2.403" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user input the correct email and password and clicks the [SIGN IN] and selects the Simplified Chinese language : " timestamp="2016-06-29T18:05:04" hostname="localhost" time="2.778" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user input the correct email and password and clicks the [SIGN IN] and selects the Simplified Chinese language : " name="Should check every elements using the right language" time="2.778" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user clicks the [Sign Out] and selects the Simplified Chinese language : " timestamp="2016-06-29T18:05:07" hostname="localhost" time="4.315" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user clicks the [Sign Out] and selects the Simplified Chinese language : " name="Should check every elements using the right language" time="4.315" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user enters the login page and selects the English language: " timestamp="2016-06-29T18:05:11" hostname="localhost" time="1.73" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user enters the login page and selects the English language: " name="Should check every elements using the right language" time="1.73" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user enters the sign up page and selects the English language: " timestamp="2016-06-29T18:05:13" hostname="localhost" time="2.084" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user enters the sign up page and selects the English language: " name="Should check every elements using the right language" time="2.083" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs null in the account and password and selects the English language : " timestamp="2016-06-29T18:05:15" hostname="localhost" time="3.065" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs null in the account and password and selects the English language : " name="Should check every elements using the right language" time="3.065" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs the incorrect format for e-mail and selects the English language : " timestamp="2016-06-29T18:05:18" hostname="localhost" time="2.329" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs the incorrect format for e-mail and selects the English language : " name="Should check every elements using the right language" time="2.329" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs the incorrect format for password and selects the English language : " timestamp="2016-06-29T18:05:20" hostname="localhost" time="2.26" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs the incorrect format for password and selects the English language : " name="Should check every elements using the right language" time="2.26" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs the password and confirmation is inconsistent and selects the English language :" timestamp="2016-06-29T18:05:23" hostname="localhost" time="2.252" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs the password and confirmation is inconsistent and selects the English language :" name="Should check every elements using the right language" time="2.252" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs the e-mail, password and confirmation and clicks the [SIGN UP] and selects the English language : " timestamp="2016-06-29T18:05:25" hostname="localhost" time="3.599" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs the e-mail, password and confirmation and clicks the [SIGN UP] and selects the English language : " name="Should check every elements using the right language" time="3.598" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs an already existing e-mail and selects the English language :" timestamp="2016-06-29T18:05:29" hostname="localhost" time="2.331" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs an already existing e-mail and selects the English language :" name="Should check every elements using the right language" time="2.33" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs null in the account and password and selects the English language : " timestamp="2016-06-29T18:05:31" hostname="localhost" time="2.053" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs null in the account and password and selects the English language : " name="Should check every elements using the right language" time="2.053" />
+ </testsuite>
+ <testsuite name="Auth Translation.When the user inputs the correct email and password, but the email does not exist and clicks the [SIGN IN] and selects the English language : " timestamp="2016-06-29T18:05:33" hostname="localhost" time="2.677" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When the user inputs the correct email and password, but the email does not exist and clicks the [SIGN IN] and selects the English language : " name="Should check every elements using the right language" time="2.677" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user inputs exist email but input not match password and clicks the [Sign In] and selects the English language : " timestamp="2016-06-29T18:05:36" hostname="localhost" time="2.229" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user inputs exist email but input not match password and clicks the [Sign In] and selects the English language : " name="Should check every elements using the right language" time="2.229" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user input the correct email and password and clicks the [SIGN IN] and selects the English language : " timestamp="2016-06-29T18:05:38" hostname="localhost" time="2.625" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user input the correct email and password and clicks the [SIGN IN] and selects the English language : " name="Should check every elements using the right language" time="2.625" />
+ </testsuite>
+ <testsuite name="Auth Translation.When user clicks the [Sign Out] : " timestamp="2016-06-29T18:05:40" hostname="localhost" time="4.251" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Auth Translation.When user clicks the [Sign Out] : " name="Should check every elements using the right language" time="4.25" />
+ </testsuite>
+ <testsuite name="Bucket List : " timestamp="2016-06-29T18:05:45" hostname="localhost" time="4.994" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Bucket List : .When the user into the management bucket page but do not have any of the bucket : " timestamp="2016-06-29T18:05:45" hostname="localhost" time="4.993" errors="0" tests="1" skipped="0" disabled="0" failures="2">
+  <testcase classname="Bucket List : .When the user into the management bucket page but do not have any of the bucket : " name="Should check the [CREATE BUCKET] button is display and enabled and the message is displayed" time="4.993">
+   <failure type="toBe" message="Expected false to be true."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (/Users/apple/Desktop/inwinstack/e2e/bucket/list.js:32:43)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:96:23
+    at new Promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1043:7)
+    at controlFlowExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:82:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2697:25
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (node.js:377:9)]]>
+   </failure>
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, [ng-click=&quot;bucket.createBucket($event)&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, [ng-click="bucket.createBucket($event)"])
+    at WebDriverError (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/error.js:26:26)
+    at NoSuchElementError (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/error.js:229:26)
+    at /usr/local/lib/node_modules/protractor/built/element.js:674:15
+    at Promise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1329:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2652:27
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (node.js:377:9)
+Error
+    at [object Object].ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/built/element.js:380:21)
+    at [object Object].ElementArrayFinder.(anonymous function) [as isEnabled] (/usr/local/lib/node_modules/protractor/built/element.js:78:17)
+    at [object Object].ElementFinder.(anonymous function) [as isEnabled] (/usr/local/lib/node_modules/protractor/built/element.js:708:7)
+    at Object.<anonymous> (/Users/apple/Desktop/inwinstack/e2e/bucket/list.js:33:30)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:96:23
+    at new Promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1043:7)
+    at controlFlowExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:82:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2697:25
+From: Task: Run it("Should check the [CREATE BUCKET] button is display and enabled and the message is displayed") in control flow
+    at Object.<anonymous> (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:81:14)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1916:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1871:9)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1898:16
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1842:9
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:18:5
+    at Promise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1329:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2652:27
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (/Users/apple/Desktop/inwinstack/e2e/bucket/list.js:31:5)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:833:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:802:7)
+    at jasmineInterface.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3375:18)
+    at Suite.<anonymous> (/Users/apple/Desktop/inwinstack/e2e/bucket/list.js:25:3)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:833:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:802:7)
+    at jasmineInterface.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3375:18)
+    at Object.<anonymous> (/Users/apple/Desktop/inwinstack/e2e/bucket/list.js:9:1)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Create Bucket" timestamp="2016-06-29T18:05:50" hostname="localhost" time="18.779" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Create Bucket.When user click the [CREATE BUCKET] button : " timestamp="2016-06-29T18:05:50" hostname="localhost" time="4.284" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Bucket.When user click the [CREATE BUCKET] button : " name="Should check the display Bucket form" time="1.678" />
+  <testcase classname="Create Bucket.When user click the [CREATE BUCKET] button : " name="Should check the display Bucket form #2" time="2.606" />
+ </testsuite>
+ <testsuite name="Create Bucket.When the bucket form show and the user clicks the [Cancel] button" timestamp="2016-06-29T18:05:54" hostname="localhost" time="2.551" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Bucket.When the bucket form show and the user clicks the [Cancel] button" name="Should check hide Create Bucket form" time="2.55" />
+ </testsuite>
+ <testsuite name="Create Bucket.When the bucket form show and the user clicks the [x] button" timestamp="2016-06-29T18:05:57" hostname="localhost" time="2.743" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Bucket.When the bucket form show and the user clicks the [x] button" name="Should check hide Create Bucket form" time="2.743" />
+ </testsuite>
+ <testsuite name="Create Bucket.When user has not input bucket name : " timestamp="2016-06-29T18:05:59" hostname="localhost" time="1.977" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Bucket.When user has not input bucket name : " name="Should check the [CREATE] is disabled" time="1.976" />
+ </testsuite>
+ <testsuite name="Create Bucket.When user input bucket name : " timestamp="2016-06-29T18:06:01" hostname="localhost" time="1.959" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Bucket.When user input bucket name : " name="Should check the [CREATE] is enabled" time="1.959" />
+ </testsuite>
+ <testsuite name="Create Bucket.When user input bucket name and click the [CREATE] button: " timestamp="2016-06-29T18:06:03" hostname="localhost" time="3.199" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Bucket.When user input bucket name and click the [CREATE] button: " name="Should check show create bucket success message" time="3.199" />
+ </testsuite>
+ <testsuite name="Create Bucket.When user has added a new bucket: " timestamp="2016-06-29T18:06:06" hostname="localhost" time="2.065" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Bucket.When user has added a new bucket: " name="Should check the bucket exists in the file list" time="1.101" />
+  <testcase classname="Create Bucket.When user has added a new bucket: " name="Should check sort situation" time="0.964" />
+ </testsuite>
+ <testsuite name="Delete Bucket" timestamp="2016-06-29T18:06:09" hostname="localhost" time="33.789" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Delete Bucket.When user does not select any of the bucket : " timestamp="2016-06-29T18:06:09" hostname="localhost" time="1.936" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Delete Bucket.When user does not select any of the bucket : " name="Should check the [delete bucket] button is disabled" time="1.936" />
+ </testsuite>
+ <testsuite name="Delete Bucket.When user selects to be deleted Bucket : " timestamp="2016-06-29T18:06:10" hostname="localhost" time="2.59" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Delete Bucket.When user selects to be deleted Bucket : " name="Should check the [delete bucket] button is enabled" time="2.59" />
+ </testsuite>
+ <testsuite name="Delete Bucket.When user clicks the [delete bucket] button : " timestamp="2016-06-29T18:06:13" hostname="localhost" time="3.458" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Delete Bucket.When user clicks the [delete bucket] button : " name="Should check the display to delete bucket form" time="3.458" />
+ </testsuite>
+ <testsuite name="Delete Bucket.When user clicks the [delete bucket] button but did not inputs the Bucket Name : " timestamp="2016-06-29T18:06:17" hostname="localhost" time="3.376" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Delete Bucket.When user clicks the [delete bucket] button but did not inputs the Bucket Name : " name="Should check the [DELETE] button is disabled" time="3.376" />
+ </testsuite>
+ <testsuite name="Delete Bucket.When user opens the form create a folder and clicks the [Cancel] button : " timestamp="2016-06-29T18:06:20" hostname="localhost" time="4.012" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Delete Bucket.When user opens the form create a folder and clicks the [Cancel] button : " name="Should check delete bucket form has been closed" time="4.012" />
+ </testsuite>
+ <testsuite name="Delete Bucket.When user opens the form create a folder and clicks the [x] button : " timestamp="2016-06-29T18:06:24" hostname="localhost" time="4.233" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Delete Bucket.When user opens the form create a folder and clicks the [x] button : " name="Should check delete bucket form has been closed" time="4.233" />
+ </testsuite>
+ <testsuite name="Delete Bucket.When user inputs bucket name does not exist : " timestamp="2016-06-29T18:06:28" hostname="localhost" time="4.082" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Delete Bucket.When user inputs bucket name does not exist : " name="Should check the show message bucket name is not exists" time="4.081" />
+ </testsuite>
+ <testsuite name="Delete Bucket.When user inputs the bucket name consistent : " timestamp="2016-06-29T18:06:32" hostname="localhost" time="4.314" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Delete Bucket.When user inputs the bucket name consistent : " name="Should check the [DELETE] button is enabled" time="4.314" />
+ </testsuite>
+ <testsuite name="Delete Bucket.When user inputs the bucket name consistent and clicks the [DELETE] button : " timestamp="2016-06-29T18:06:37" hostname="localhost" time="5.787" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Delete Bucket.When user inputs the bucket name consistent and clicks the [DELETE] button : " name="Should check show delete bucket success message and bucket has been deleted" time="5.787" />
+ </testsuite>
+ <testsuite name="Bucket Translation" timestamp="2016-06-29T18:06:42" hostname="localhost" time="164.37" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Bucket Translation.When user enters the bucket page and selects the Traditional Chinese language: " timestamp="2016-06-29T18:06:42" hostname="localhost" time="3.694" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user enters the bucket page and selects the Traditional Chinese language: " name="Should check every elements using the right language" time="3.694" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user opens the create bucket form and selects the Traditional Chinese language: " timestamp="2016-06-29T18:06:46" hostname="localhost" time="3.928" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user opens the create bucket form and selects the Traditional Chinese language: " name="Should check every elements using the right language" time="3.928" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user clicks the [ACTIONS] button form and selects the Traditional Chinese language: " timestamp="2016-06-29T18:06:50" hostname="localhost" time="4.071" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user clicks the [ACTIONS] button form and selects the Traditional Chinese language: " name="Should check every elements using the right language" time="4.07" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user clicks the [ACTIONS] button and selects the Traditional Chinese language: " timestamp="2016-06-29T18:06:54" hostname="localhost" time="4.247" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user clicks the [ACTIONS] button and selects the Traditional Chinese language: " name="Should check every elements using the right language" time="4.246" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user create already exists bucket name and selects the Traditional Chinese language: " timestamp="2016-06-29T18:06:58" hostname="localhost" time="5.469" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user create already exists bucket name and selects the Traditional Chinese language: " name="Should check every elements using the right language" time="5.468" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user create bucket and selects the Traditional Chinese language: " timestamp="2016-06-29T18:07:04" hostname="localhost" time="5.189" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user create bucket and selects the Traditional Chinese language: " name="Should check every elements using the right language" time="5.189" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user open delete bucket form and selects the Traditional Chinese language: " timestamp="2016-06-29T18:07:09" hostname="localhost" time="7.471" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user open delete bucket form and selects the Traditional Chinese language: " name="Should check every elements using the right language" time="7.471" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user input null and selects the Traditional Chinese language: " timestamp="2016-06-29T18:07:16" hostname="localhost" time="6.415" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user input null and selects the Traditional Chinese language: " name="Should check every elements using the right language" time="6.415" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user input not the same bucket name and selects the Traditional Chinese language: " timestamp="2016-06-29T18:07:23" hostname="localhost" time="6.434" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user input not the same bucket name and selects the Traditional Chinese language: " name="Should check every elements using the right language" time="6.434" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user delete bucket and selects the Traditional Chinese language: " timestamp="2016-06-29T18:07:29" hostname="localhost" time="7.527" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user delete bucket and selects the Traditional Chinese language: " name="Should check every elements using the right language" time="7.527" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user enters the bucket page and selects the Simplified Chinese language: " timestamp="2016-06-29T18:07:37" hostname="localhost" time="8.54" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user enters the bucket page and selects the Simplified Chinese language: " name="Should check every elements using the right language" time="8.54" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user opens the create bucket form and selects the Simplified Chinese language: " timestamp="2016-06-29T18:07:45" hostname="localhost" time="4.613" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user opens the create bucket form and selects the Simplified Chinese language: " name="Should check every elements using the right language" time="4.613" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user clicks the [ACTIONS] button form and selects the Simplified Chinese language: " timestamp="2016-06-29T18:07:50" hostname="localhost" time="5.074" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user clicks the [ACTIONS] button form and selects the Simplified Chinese language: " name="Should check every elements using the right language" time="5.074" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user clicks the [ACTIONS] button and selects the Simplified Chinese language: " timestamp="2016-06-29T18:07:55" hostname="localhost" time="4.3" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user clicks the [ACTIONS] button and selects the Simplified Chinese language: " name="Should check every elements using the right language" time="4.3" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user create already exists bucket name and selects the Simplified Chinese language: " timestamp="2016-06-29T18:07:59" hostname="localhost" time="4.857" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user create already exists bucket name and selects the Simplified Chinese language: " name="Should check every elements using the right language" time="4.855" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user create bucket and selects the Simplified Chinese language: " timestamp="2016-06-29T18:08:04" hostname="localhost" time="5.135" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Bucket Translation.When user create bucket and selects the Simplified Chinese language: " name="Should check every elements using the right language" time="5.134">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, [class=&quot;ng-binding flex&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, [class="ng-binding flex"])
+    at WebDriverError (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/error.js:26:26)
+    at NoSuchElementError (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/error.js:229:26)
+    at /usr/local/lib/node_modules/protractor/built/element.js:674:15
+    at Promise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1329:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2652:27
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (node.js:377:9)
+Error
+    at [object Object].ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/built/element.js:380:21)
+    at [object Object].ElementArrayFinder.(anonymous function) [as getText] (/usr/local/lib/node_modules/protractor/built/element.js:78:17)
+    at [object Object].ElementFinder.(anonymous function) [as getText] (/usr/local/lib/node_modules/protractor/built/element.js:708:7)
+    at Object.<anonymous> (/Users/apple/Desktop/inwinstack/e2e/bucket/translation.js:273:30)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:96:23
+    at new Promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1043:7)
+    at controlFlowExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:82:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2697:25
+From: Task: Run it("Should check every elements using the right language") in control flow
+    at Object.<anonymous> (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:81:14)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1916:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1871:9)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1898:16
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1842:9
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:18:5
+    at Promise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1329:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2652:27
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (/Users/apple/Desktop/inwinstack/e2e/bucket/translation.js:270:5)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:833:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:802:7)
+    at jasmineInterface.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3375:18)
+    at Suite.<anonymous> (/Users/apple/Desktop/inwinstack/e2e/bucket/translation.js:262:3)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:833:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:802:7)
+    at jasmineInterface.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3375:18)
+    at Object.<anonymous> (/Users/apple/Desktop/inwinstack/e2e/bucket/translation.js:8:1)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Bucket Translation.When user open delete bucket form and selects the Simplified Chinese language: " timestamp="2016-06-29T18:08:09" hostname="localhost" time="6.217" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user open delete bucket form and selects the Simplified Chinese language: " name="Should check every elements using the right language" time="6.217" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user input null and selects the Simplified Chinese language: " timestamp="2016-06-29T18:08:15" hostname="localhost" time="6.07" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user input null and selects the Simplified Chinese language: " name="Should check every elements using the right language" time="6.069" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user input not the same bucket name and selects the Simplified Chinese language: " timestamp="2016-06-29T18:08:22" hostname="localhost" time="5.895" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user input not the same bucket name and selects the Simplified Chinese language: " name="Should check every elements using the right language" time="5.894" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user delete bucket and selects the Simplified Chinese language: " timestamp="2016-06-29T18:08:27" hostname="localhost" time="6.968" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user delete bucket and selects the Simplified Chinese language: " name="Should check every elements using the right language" time="6.968" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user enters the bucket page and selects the English language: " timestamp="2016-06-29T18:08:34" hostname="localhost" time="4.009" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user enters the bucket page and selects the English language: " name="Should check every elements using the right language" time="4.009" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user opens the create bucket form and selects the English language: " timestamp="2016-06-29T18:08:38" hostname="localhost" time="4.364" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user opens the create bucket form and selects the English language: " name="Should check every elements using the right language" time="4.364" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user clicks the [ACTIONS] button form and selects the English language: " timestamp="2016-06-29T18:08:43" hostname="localhost" time="4.079" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user clicks the [ACTIONS] button form and selects the English language: " name="Should check every elements using the right language" time="4.079" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user clicks the [ACTIONS] button and selects the English language: " timestamp="2016-06-29T18:08:47" hostname="localhost" time="4.6" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user clicks the [ACTIONS] button and selects the English language: " name="Should check every elements using the right language" time="4.6" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user create already exists bucket name and selects the English language: " timestamp="2016-06-29T18:08:51" hostname="localhost" time="5.051" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user create already exists bucket name and selects the English language: " name="Should check every elements using the right language" time="5.05" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user create bucket and selects the English language: " timestamp="2016-06-29T18:08:57" hostname="localhost" time="4.795" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user create bucket and selects the English language: " name="Should check every elements using the right language" time="4.793" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user open delete bucket form and selects the English language: " timestamp="2016-06-29T18:09:01" hostname="localhost" time="5.891" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user open delete bucket form and selects the English language: " name="Should check every elements using the right language" time="5.891" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user input null and selects the English language: " timestamp="2016-06-29T18:09:07" hostname="localhost" time="5.734" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user input null and selects the English language: " name="Should check every elements using the right language" time="5.734" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user input not the same bucket name and selects the English language: " timestamp="2016-06-29T18:09:13" hostname="localhost" time="6.88" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user input not the same bucket name and selects the English language: " name="Should check every elements using the right language" time="6.88" />
+ </testsuite>
+ <testsuite name="Bucket Translation.When user delete bucket and selects the English language: " timestamp="2016-06-29T18:09:20" hostname="localhost" time="6.852" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Bucket Translation.When user delete bucket and selects the English language: " name="Should check every elements using the right language" time="6.852" />
+ </testsuite>
+ <testsuite name="File List" timestamp="2016-06-29T18:09:27" hostname="localhost" time="9.577" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="File List.When user clicks the bucket : " timestamp="2016-06-29T18:09:27" hostname="localhost" time="6.723" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File List.When user clicks the bucket : " name="Should check into the file management page" time="6.723" />
+ </testsuite>
+ <testsuite name="File List.When user into the file management page but do not have any of the file" timestamp="2016-06-29T18:09:33" hostname="localhost" time="2.853" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File List.When user into the file management page but do not have any of the file" name="Should check the [UPLOAD FILE] and [CREATE FOLDER] button is display and enabled and display title" time="2.853" />
+ </testsuite>
+ <testsuite name="Upload File" timestamp="2016-06-29T18:09:36" hostname="localhost" time="51.606" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Upload File.When user into the upload file form but the list is empty : " timestamp="2016-06-29T18:09:36" hostname="localhost" time="2.737" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File.When user into the upload file form but the list is empty : " name="Should check the [UPLOAD] button is disabled and the number and size of files is 0" time="2.737" />
+ </testsuite>
+ <testsuite name="Upload File.When user into the upload file form and click [CANCEL] btn : " timestamp="2016-06-29T18:09:39" hostname="localhost" time="3.316" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File.When user into the upload file form and click [CANCEL] btn : " name="Should check the upload form is closed" time="3.314" />
+ </testsuite>
+ <testsuite name="Upload File.When user into the upload file form and click [X] btn : " timestamp="2016-06-29T18:09:42" hostname="localhost" time="3.269" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File.When user into the upload file form and click [X] btn : " name="Should check the upload form is closed" time="3.268" />
+ </testsuite>
+ <testsuite name="Upload File.When user into the upload file form and the list is not empty : " timestamp="2016-06-29T18:09:46" hostname="localhost" time="3.17" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File.When user into the upload file form and the list is not empty : " name="Should check the number and size of files is not 0 and the [UPLOAD] button is enabled" time="3.17" />
+ </testsuite>
+ <testsuite name="Upload File.When user into the upload file form and the list is not empty and click [x] button : " timestamp="2016-06-29T18:09:49" hostname="localhost" time="3.856" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File.When user into the upload file form and the list is not empty and click [x] button : " name="Should check the number and size of files is not 0" time="3.856" />
+ </testsuite>
+ <testsuite name="Upload File.When user has selected file but upload file form off and then turned on : " timestamp="2016-06-29T18:09:53" hostname="localhost" time="5.414" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File.When user has selected file but upload file form off and then turned on : " name="Should check the number and size of files is not 0" time="5.414" />
+ </testsuite>
+ <testsuite name="Upload File.When user successfully uploaded files : " timestamp="2016-06-29T18:09:58" hostname="localhost" time="4.554" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File.When user successfully uploaded files : " name="Should check show upload success message and the file exists in the file list" time="4.554" />
+ </testsuite>
+ <testsuite name="Upload File.When user uploads a file name that already exists : " timestamp="2016-06-29T18:10:03" hostname="localhost" time="7.955" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File.When user uploads a file name that already exists : " name="Should check the file overwrite the original file" time="7.955" />
+ </testsuite>
+ <testsuite name="Upload File.When user attempts to sign out but is being uploaded file : " timestamp="2016-06-29T18:10:11" hostname="localhost" time="5.134" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File.When user attempts to sign out but is being uploaded file : " name="Should check whether logout confirmation" time="5.134" />
+ </testsuite>
+ <testsuite name="Upload File.When user attempts to sign out and clicks the [Stay] button but is being uploaded file : " timestamp="2016-06-29T18:10:16" hostname="localhost" time="5.656" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File.When user attempts to sign out and clicks the [Stay] button but is being uploaded file : " name="Should check stay on the current page" time="5.654" />
+ </testsuite>
+ <testsuite name="Upload File.When user attempts to sign out and clicks the [Leave] button but is being uploaded file : " timestamp="2016-06-29T18:10:21" hostname="localhost" time="6.543" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File.When user attempts to sign out and clicks the [Leave] button but is being uploaded file : " name="Should check back to sign in page" time="6.543" />
+ </testsuite>
+ <testsuite name="Upload File Status" timestamp="2016-06-29T18:10:28" hostname="localhost" time="16.934" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Upload File Status.When user is uploading files : " timestamp="2016-06-29T18:10:28" hostname="localhost" time="5.887" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File Status.When user is uploading files : " name="Should check whether the upload status page" time="5.887" />
+ </testsuite>
+ <testsuite name="Upload File Status.When user is uploading a file and open the upload status page : " timestamp="2016-06-29T18:10:34" hostname="localhost" time="5.351" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File Status.When user is uploading a file and open the upload status page : " name="Should check the display upload file name and upload progress" time="5.35" />
+ </testsuite>
+ <testsuite name="Upload File Status.When user upload a file is completed and clicks automatically clear : " timestamp="2016-06-29T18:10:39" hostname="localhost" time="5.695" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Upload File Status.When user upload a file is completed and clicks automatically clear : " name="Should check clear file upload is complete" time="5.695" />
+ </testsuite>
+ <testsuite name="Download File" timestamp="2016-06-29T18:10:45" hostname="localhost" time="14.559" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Download File.When user wants to download the file but not yet selected : " timestamp="2016-06-29T18:10:45" hostname="localhost" time="3.194" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Download File.When user wants to download the file but not yet selected : " name="Should check the [Download] button is disabled" time="3.194" />
+ </testsuite>
+ <testsuite name="Download File.When the user wants to download files but select multiple files : " timestamp="2016-06-29T18:10:48" hostname="localhost" time="7.9" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Download File.When the user wants to download files but select multiple files : " name="Should check the [Download] button is disabled" time="7.899" />
+ </testsuite>
+ <testsuite name="Download File.When the user wants to download the file and select a file only : " timestamp="2016-06-29T18:10:56" hostname="localhost" time="3.465" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Download File.When the user wants to download the file and select a file only : " name="Should check the [Download] button is enabled" time="3.465" />
+ </testsuite>
+ <testsuite name="Delete File" timestamp="2016-06-29T18:10:59" hostname="localhost" time="17.872" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Delete File.When user does not select any of the file : " timestamp="2016-06-29T18:10:59" hostname="localhost" time="2.669" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Delete File.When user does not select any of the file : " name="Should check the [Delete] button is disabled" time="2.667" />
+ </testsuite>
+ <testsuite name="Delete File.When user selects a file to be deleted : " timestamp="2016-06-29T18:11:02" hostname="localhost" time="3.441" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Delete File.When user selects a file to be deleted : " name="Should check the [Delete] button is enabled" time="3.441" />
+ </testsuite>
+ <testsuite name="Delete File.When the user selects multiple files to be deleted : " timestamp="2016-06-29T18:11:05" hostname="localhost" time="4.084" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Delete File.When the user selects multiple files to be deleted : " name="Should check the [Delete] button is enabled" time="4.083" />
+ </testsuite>
+ <testsuite name="Delete File.When the user selects multiple files to be deleted and clicks the [Delete] : " timestamp="2016-06-29T18:11:10" hostname="localhost" time="7.678" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Delete File.When the user selects multiple files to be deleted and clicks the [Delete] : " name="Should check show delete file success message and files has been deleted" time="7.678" />
+ </testsuite>
+ <testsuite name="File Translation" timestamp="2016-06-29T18:11:17" hostname="localhost" time="84.831" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="File Translation.When user into the file management page and selects the Traditional Chinese language : " timestamp="2016-06-29T18:11:17" hostname="localhost" time="7.618" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Translation.When user into the file management page and selects the Traditional Chinese language : " name="Should check every elements using the right language" time="7.618" />
+ </testsuite>
+ <testsuite name="File Translation.When user into the upload file form and selects the Traditional Chinese language : " timestamp="2016-06-29T18:11:25" hostname="localhost" time="6.105" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Translation.When user into the upload file form and selects the Traditional Chinese language : " name="Should check every elements using the right language" time="6.104" />
+ </testsuite>
+ <testsuite name="File Translation.When user successfully uploaded files and selects the Traditional Chinese language : " timestamp="2016-06-29T18:11:31" hostname="localhost" time="9.244" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Translation.When user successfully uploaded files and selects the Traditional Chinese language : " name="Should check every elements using the right language" time="9.244" />
+ </testsuite>
+ <testsuite name="File Translation.When user selects a file to be deleted and selects the Traditional Chinese language : " timestamp="2016-06-29T18:11:40" hostname="localhost" time="6.799" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Translation.When user selects a file to be deleted and selects the Traditional Chinese language : " name="Should check every elements using the right language" time="6.799" />
+ </testsuite>
+ <testsuite name="File Translation.When user into the file management page and selects the Simplified Chinese language : " timestamp="2016-06-29T18:11:47" hostname="localhost" time="5.164" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Translation.When user into the file management page and selects the Simplified Chinese language : " name="Should check every elements using the right language" time="5.164" />
+ </testsuite>
+ <testsuite name="File Translation.When user into the upload file form and selects the Simplified Chinese language : " timestamp="2016-06-29T18:11:52" hostname="localhost" time="5.796" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Translation.When user into the upload file form and selects the Simplified Chinese language : " name="Should check every elements using the right language" time="5.795" />
+ </testsuite>
+ <testsuite name="File Translation.When user successfully uploaded files and selects the Simplified Chinese language : " timestamp="2016-06-29T18:11:58" hostname="localhost" time="9.432" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Translation.When user successfully uploaded files and selects the Simplified Chinese language : " name="Should check every elements using the right language" time="9.431" />
+ </testsuite>
+ <testsuite name="File Translation.When user selects a file to be deleted and selects the Simplified Chinese language : " timestamp="2016-06-29T18:12:07" hostname="localhost" time="6.17" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Translation.When user selects a file to be deleted and selects the Simplified Chinese language : " name="Should check every elements using the right language" time="6.17" />
+ </testsuite>
+ <testsuite name="File Translation.When user into the file management page and selects the English language : " timestamp="2016-06-29T18:12:14" hostname="localhost" time="5.385" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Translation.When user into the file management page and selects the English language : " name="Should check every elements using the right language" time="5.383" />
+ </testsuite>
+ <testsuite name="File Translation.When user into the upload file form and selects the English language : " timestamp="2016-06-29T18:12:19" hostname="localhost" time="6.331" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Translation.When user into the upload file form and selects the English language : " name="Should check every elements using the right language" time="6.331" />
+ </testsuite>
+ <testsuite name="File Translation.When user successfully uploaded files and selects the English language : " timestamp="2016-06-29T18:12:25" hostname="localhost" time="10.324" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Translation.When user successfully uploaded files and selects the English language : " name="Should check every elements using the right language" time="10.323" />
+ </testsuite>
+ <testsuite name="File Translation.When user selects a file to be deleted and selects the English language : " timestamp="2016-06-29T18:12:36" hostname="localhost" time="6.463" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="File Translation.When user selects a file to be deleted and selects the English language : " name="Should check every elements using the right language" time="6.463" />
+ </testsuite>
+ <testsuite name="Create Folder" timestamp="2016-06-29T18:12:42" hostname="localhost" time="29.273" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Create Folder.When user clicks the [Create folder] button : " timestamp="2016-06-29T18:12:42" hostname="localhost" time="2.916" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Folder.When user clicks the [Create folder] button : " name="Should check the display to create folder form" time="2.916" />
+ </testsuite>
+ <testsuite name="Create Folder.When user clicks the [Action] and select the [Create folder] button : " timestamp="2016-06-29T18:12:45" hostname="localhost" time="3.439" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Folder.When user clicks the [Action] and select the [Create folder] button : " name="Should check the display to create folder form" time="3.439" />
+ </testsuite>
+ <testsuite name="Create Folder.When user opens the form create a folder : " timestamp="2016-06-29T18:12:48" hostname="localhost" time="2.865" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Folder.When user opens the form create a folder : " name="Should check the [Create] is enabled" time="2.865" />
+ </testsuite>
+ <testsuite name="Create Folder.When user opens the form create a folder and clicks the [Cancel] button : " timestamp="2016-06-29T18:12:51" hostname="localhost" time="3.336" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Folder.When user opens the form create a folder and clicks the [Cancel] button : " name="Should check create folders form has been closed" time="3.336" />
+ </testsuite>
+ <testsuite name="Create Folder.When user opens the form create a folder and clicks the [x] button : " timestamp="2016-06-29T18:12:55" hostname="localhost" time="4.869" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Folder.When user opens the form create a folder and clicks the [x] button : " name="Should check create folders form has been closed" time="4.869" />
+ </testsuite>
+ <testsuite name="Create Folder.When user inputs a name for the folder does not exist and clicks the [Create] button : " timestamp="2016-06-29T18:12:59" hostname="localhost" time="7.194" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Folder.When user inputs a name for the folder does not exist and clicks the [Create] button : " name="Should check show create folder success message and the folder name exists in the list" time="7.193" />
+ </testsuite>
+ <testsuite name="Create Folder.When user has to create a new folder : " timestamp="2016-06-29T18:13:07" hostname="localhost" time="4.654" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Create Folder.When user has to create a new folder : " name="Should check sort situation" time="4.653" />
+ </testsuite>
+ <testsuite name="Folder Translation" timestamp="2016-06-29T18:13:11" hostname="localhost" time="21.274" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Folder Translation.When user opens the create folder form and selects the Traditional Chinese language: " timestamp="2016-06-29T18:13:11" hostname="localhost" time="5.186" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Folder Translation.When user opens the create folder form and selects the Traditional Chinese language: " name="Should check every elements using the right language" time="5.186" />
+ </testsuite>
+ <testsuite name="Folder Translation.When user opens the create folder form and selects the Simplified Chinese language: " timestamp="2016-06-29T18:13:17" hostname="localhost" time="5.639" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Folder Translation.When user opens the create folder form and selects the Simplified Chinese language: " name="Should check every elements using the right language" time="5.639" />
+ </testsuite>
+ <testsuite name="Folder Translation.When user opens the create folder form and selects the English language: " timestamp="2016-06-29T18:13:22" hostname="localhost" time="5.805" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Folder Translation.When user opens the create folder form and selects the English language: " name="Should check every elements using the right language" time="5.805" />
+ </testsuite>
+ <testsuite name="Folder Translation.Clear" timestamp="2016-06-29T18:13:28" hostname="localhost" time="4.644" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Folder Translation.Clear" name="Clear" time="4.644" />
+ </testsuite>
+</testsuites>
