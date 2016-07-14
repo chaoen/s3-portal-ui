@@ -63,6 +63,12 @@ export default {
     CREATE_BUCKET_FAILURE: 'Bucket {{ bucket }} are create failure, please try again!',
     DELETE_BUCKET_SUCCESS: 'Bucket {{ bucket }} Delete Success！',
     DELETE_BUCKET_FAILURE: 'Bucket {{ bucket }} Delete Fail Please Try Again！',
+    CREATE_FOLDER_SUCCESS: 'Folder {{ folder }} Create Success！',
+    CREATE_FOLDER_FAILURE: 'Folder {{ folder }} Create Fail Please Try Again！',
+    UPLOAD_FILE_SUCCESS: 'File {{ name }} Upload Success!',
+    UPLOAD_FILE_FAILURE: 'File {{ name }} Upload Fail Please Try Again!',
+    DELETE_FILE_SUCCESS: '{{ name }} Delete Success！',
+    DELETE_FILE_FAILURE: '{{ name }} Delete Fail Please Try Again！',
   },
   AUTH: {
     EMAIL: 'Email',
@@ -96,6 +102,7 @@ export default {
     STORAGE_CLASS: 'Storage Class',
     SIZE: 'Size',
     LAST_MODIFIED: 'Last Modified',
+    OWNER: 'Owner',
     EMPTY: '',
     DO_ACTIONS: 'You can do the following actions',
     UPLOAD: 'Upload File',
@@ -111,5 +118,10 @@ export default {
     FOLDER_DUPLICATED_MESSAGE: `That folder already exists!
     Please select a different name and try again.`,
     NEW_FOLDER: 'New folder',
+    DELETE_TITLE: 'Would you like to delete the selected items?',
+    DELETE_DESCRIPTION: `Deleting those objects cannot be undone.
+    Are you sure you want to delete selected items?`,
+    DELETE_ARIA_LABEL: 'Delete Objects',
+    PROPERTIES_NAME: 'File Name',
   },
 };
