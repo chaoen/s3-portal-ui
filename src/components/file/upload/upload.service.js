@@ -2,15 +2,21 @@ import { element } from 'angular';
 import totalSize from '../../../utils/totalSize';
 import FileUploadController from './upload.controller';
 import FileUploadTemplate from './upload.html';
+import aws from 'aws-sdk';
 
 export default class FileUploadService {
   /** @ngInject */
-  constructor(Config, Upload, $mdDialog, $file, $transfer) {
+  constructor(Config, Upload, $mdDialog, $file, $transfer, $cookies) {
     Object.assign(this, {
-      Config, Upload, $mdDialog, $file, $transfer,
+      Config, Upload, $mdDialog, $file, $transfer, $cookies
     });
-
     this.initState();
+    aws.config.update({
+       "accessKeyId": this.$cookies.get('accessKeyId'), 
+       "secretAccessKey": this.$cookies.get('secretAccessKey'),
+       "endpoint": "http://10.26.1.3:7480"
+    });
+    // console.log(aws.S3.upload());
   }
 
   initState() {
@@ -69,15 +75,23 @@ export default class FileUploadService {
   }
 
   uploadFile(id, data, url) {
-    const upload = this.Upload.upload({ url, data });
-
-    upload.then(
+    const s3 = new aws.S3();
+    const params = {Bucket: data.bucket, Key: data.file.name, Body: data.file};
+    const options = {partSize: 10 * 1024 * 1024, queueSize: 1};
+    s3.upload(params, options, function(err, data) {
       res => this.$transfer.handleSuccess(id, res),
       err => this.$transfer.handleFailure(id, err),
       evt => this.$transfer.handleEvent(id, evt)
-    );
+    })
+    this.$file.getFiles();
+    
+    // s3upload.then(
+    //   res => this.$transfer.handleSuccess(id, res),
+    //   err => this.$transfer.handleFailure(id, err),
+    //   evt => this.$transfer.handleEvent(id, evt)
+    // );
 
-    return upload;
+    return true;
   }
 
   createDialog($event) {

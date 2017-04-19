@@ -28,6 +28,8 @@ export default class SignInController {
       .then(res => {
         // this.AuthService.role = res.data.role;
         this.$cookies.put('role', res.data.role);
+        this.$cookies.put('accessKeyId', res.data.access_key);
+        this.$cookies.put('secretAccessKey', res.data.secret_key);
         this.$translate('TOAST.SIGN_IN_SUCCESS')
           .then(signInSuccess => {
             this.$state.go('bucket');

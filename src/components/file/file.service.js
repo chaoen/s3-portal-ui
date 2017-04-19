@@ -1,13 +1,18 @@
 import getIconString from '../../utils/icon';
 import { sortFiles } from '../../utils/sort';
+import aws from 'aws-sdk';
 
 export default class FileService {
   /** @ngInject */
-  constructor($mdDialog, $fetch, $bucket, $toast, $location, $injector, Config, $http, $translate) {
+  constructor($mdDialog, $fetch, $bucket, $toast, $location, $injector, Config, $http, $translate, $cookies) {
     Object.assign(this, {
-      $mdDialog, $fetch, $bucket, $toast, $injector, $location, Config, $http, $translate,
+      $mdDialog, $fetch, $bucket, $toast, $injector, $location, Config, $http, $translate, $cookies
     });
-
+    aws.config.update({
+       "accessKeyId": this.$cookies.get('accessKeyId'), 
+       "secretAccessKey": this.$cookies.get('secretAccessKey'),
+       "endpoint": "http://10.26.1.3:7480"
+    });
     this.initState();
   }
 
@@ -179,24 +184,37 @@ export default class FileService {
   download() {
     const { bucket, prefix } = this.state.paths;
     const { downloadName } = this.state.lists;
-    const url = `${this.Config.API_URL}/v1/file/get/${bucket}/${prefix}${downloadName}`;
+    const params = {Bucket: bucket, Key: downloadName};
+    const s3 = new aws.S3();
+    s3.getObject(params, function(err, data) {
+      const blob = new Blob([data.Body]);
+      const href = URL.createObjectURL(blob);
+      const anchor = document.createElement('a');
 
-    this.$http({ url, responseType: 'arraybuffer' })
-      .then(({ data }) => {
-        const blob = new Blob([data]);
-        const href = URL.createObjectURL(blob);
-        const anchor = document.createElement('a');
+      anchor.href = href;
+      anchor.download = downloadName;
+      anchor.click();
 
-        anchor.href = href;
-        anchor.download = downloadName;
-        anchor.click();
+      URL.revokeObjectURL(href);
+    })
+    // const url = `${this.Config.API_URL}/v1/file/get/${bucket}/${prefix}${downloadName}`;
 
-        URL.revokeObjectURL(href);
-      })
-      .catch(() => {
-        this.$toast.show(`The ${downloadName} doesn't exist, please try again!`);
-        this.getFiles();
-      });
+    // this.$http({ url, responseType: 'arraybuffer' })
+    //   .then(({ data }) => {
+    //     const blob = new Blob([data]);
+    //     const href = URL.createObjectURL(blob);
+    //     const anchor = document.createElement('a');
+
+    //     anchor.href = href;
+    //     anchor.download = downloadName;
+    //     anchor.click();
+
+    //     URL.revokeObjectURL(href);
+    //   })
+    //   .catch(() => {
+    //     this.$toast.show(`The ${downloadName} doesn't exist, please try again!`);
+    //     this.getFiles();
+    //   });
   }
 
   replicateDialog($event) {
