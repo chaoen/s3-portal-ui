@@ -21,6 +21,9 @@ module.exports = {
     extensions: ['', '.js'],
   },
   module: {
+    preLoaders: [
+        { test: /\.json$/, loader: 'json'},
+    ],
     loaders: [
       {
         test: /\.js$/,
