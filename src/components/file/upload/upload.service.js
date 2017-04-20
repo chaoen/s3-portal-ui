@@ -6,9 +6,9 @@ import aws from 'aws-sdk';
 
 export default class FileUploadService {
   /** @ngInject */
-  constructor(Config, Upload, $mdDialog, $file, $transfer, $cookies) {
+  constructor(Config, Upload, $mdDialog, $file, $transfer, $cookies, $toast) {
     Object.assign(this, {
-      Config, Upload, $mdDialog, $file, $transfer, $cookies
+      Config, Upload, $mdDialog, $file, $transfer, $cookies, $toast
     });
     this.initState();
     aws.config.update({
@@ -75,14 +75,18 @@ export default class FileUploadService {
   }
 
   uploadFile(id, data, url) {
-    const s3 = new aws.S3();
-    const params = {Bucket: data.bucket, Key: data.file.name, Body: data.file};
-    const options = {partSize: 10 * 1024 * 1024, queueSize: 1};
-    s3.upload(params, options, function(err, data) {
-      res => this.$transfer.handleSuccess(id, res),
-      err => this.$transfer.handleFailure(id, err),
-      evt => this.$transfer.handleEvent(id, evt)
-    })
+    const $transfer = this.$transfer;
+    const $toast = this.$toast;
+    const s3 = new aws.S3.ManagedUpload({
+      partSize: 10 * 1024 * 1024, queueSize: 1,
+      params: {Bucket: data.bucket, Key: data.prefix + data.file.name, Body: data.file}
+    });
+    s3.on('httpUploadProgress', 
+      progress => $transfer.handleEvent(id, progress)
+    )
+    s3.send(function(err, data) {
+      err == null ? $toast.show('good') : console.log(err);
+    });
     this.$file.getFiles();
     
     // s3upload.then(

@@ -64,6 +64,7 @@ export default class TransferService {
     this.state.transfers[i].process = {
       loaded, total, precentage,
     };
+    // console.log(this.state.transfers[i].process);
   }
 
   handleSuccess(id) {
